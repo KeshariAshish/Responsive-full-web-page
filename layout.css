@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth;
+}
+.navbar-container{
+	background-color: #5050bb;
+	position: sticky;
+	top: 0;
+}
+.navbar-container * {
+	color: white;
+}
+.jumbotron{
+	background-color: #5050bb !important;
+	color: white;
+	padding: 0 2rem !important;
+	border-radius: 0 !important;
+}
+@media screen and (max-width: 450px){
+	.jumbotron{
+		padding: 0 1rem !important;
+	}
+	.jumbotron h1{
+		width: 100%;
+	}
+}
+.jumbotron h1{
+	font-size: 3rem;
+	width: 45%;
+	margin-bottom: 6rem;
+}
+.navbar-brand{
+	text-align: start;
+	color: white !important;
+}
+
+.navbar-collapse{
+	flex-grow: 0 !important;
+	margin-left: auto;
+	color: white !important;
+}
+a{
+	color: white !important;
+}
+.top-nav-container{
+	display: flex;
+	flex-direction: row;
+}
+.rounded-btn{
+	width: 300px;
+	border: 1px solid #7160c9;
+	border-radius: 50px;
+	background-color: #6756c5;
+	padding: .5rem 0;
+	margin: 2rem 1rem;
+	color: white;
+}
+@media screen and (max-width: 450px){
+	.rounded-btn{
+		width: 250px;
+		margin: 1rem;
+	}
+}
+.header-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #6756c5;
+	color: white;
+	font-weight: 600;
+	padding: 1rem;
+}
+.section-container h3{
+	color: #5a6cfb;
+	font-weight: 600;
+}
+.container-box-item{
+	padding: 1rem;
+	width: 250px;
+	margin: 1rem 2rem;
+	border: 1px solid #f1f1f1;
+	border-radius: 20px;
+	background-color: #fdfdfd;
+}
+.container-box-item-2{
+	padding: 1rem;
+	width: 250px;
+	margin: 1rem 2rem;
+	border: 1px solid #f1f1f1;
+	border-radius: 20px;
+	background-color: #fdfdfd;
+}
+.container-box-item:hover {
+	background: #9771fc;
+	color: white;	
+}
+.row{
+	justify-content: center;
+	margin: 0 !important;
+}
+@media screen and (min-width:700px){
+	.row{
+		flex-wrap: nowrap !important;
+	}
+}  
+.buyer-map-item{
+	text-align: right;
+	padding: 2rem 2rem 2rem 0rem;
+}
+.seller-map-item{
+	text-align: left;
+	padding: 2rem 0 2rem 2rem;
+	display: flex;
+}
+.view-deals-btn{
+	background-color: #9771fc;
+}
+.content-cards-container{
+	padding: 2rem 1rem;
+}
+.content-card{
+	width: 50%;
+	padding: 1rem;
+	margin: 1rem 2rem;
+	border: 1px solid #f1f1f1;
+	border-radius: 20px;
+	background-color: #fdfdfd;
+}
+@media screen and (max-width: 450px){
+	.carousel-inner.content-card{
+		width: 80%;
+	}
+}
+.carousel-inner.content-card{
+	padding: 0;
+	width: 50%;
+	border: #9771fc solid 1.5px;
+}
+.carousel-indicators li{
+	position: overlay;
+	background-color: #9771fc;
+	border: #9771fc solid .01rem;
+}
+.carousel-indicators li.active{
+	background-color: #9771fc;
+	
+}
+.subscribe-email-container p{
+	max-width: 660px;
+}
+.subscribe-email-container{
+	background-color: #5b6cfb;
+	padding: 2rem 1rem;
+	color: white;
+}
+.subscribe-btn{
+	color: #a175fa;
+	background-color: white;
+	width: auto;
+	padding: .5rem 1rem
+}
+.email-box input{
+	width: 290px;
+	border: 2px solid #aa9ffc;
+	border-radius: 50px;
+	background-color: #8886fb;
+	padding: .5rem 5px;
+	margin: 2rem 1rem;
+	color: black;
+	font-weight: 600;
+}
+.container-footer{
+	background-color: black
+}
+.menu-items h4{
+	color: #a782f1;
+	border-bottom: 1px solid #a782f1;
+}
+.menu-items{
+	padding: 1rem;
+	width: 250px;
+	color: white;
+}
+.menu-items p{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.small-box{
+	width: 15px;
+    height: 10px;
+    margin-top: 7px;
+    margin-right: 5px;
+    border: 2px solid #a782f1;
+    display: block;
+}
+.carousel-indicators{
+	z-index: 3;
+}
+.small-circle{
+	width: 15px;
+	height: 15px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background-color: #5e51bc;
+	padding: 5px;
+}
+.flex-row-right{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: -10px;
+}
+.flex-row-left{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: -10px;
+}
+.buyer-map{
+	border-right: 5px solid #5e51bc;
+	margin-right: 2rem;
+}
+.seller-map{
+	border-left: 5px solid #5e51bc;
+	margin-left: 2rem;
+}
+.buyer-header{
+	text-align: right;
+	margin-right: 15px;	
+}
+.seller-header{
+	text-align: left;
+	margin-left: 15px;
+}
+@media screen and (min-width: 450px){
+	.heading{
+		display: flex;
+		flex-direction: row;
+	}
+}
+.counter-value{
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: .5rem 1rem;
+	display: inline-table; 
+	margin-left: 15rem;
+}
+.counter-description{
+	margin-left: 10rem;
+}
+@media screen and (max-width: 450px){
+	.counter-value{ 
+		margin-left: 1rem;
+	}
+	.counter-description{
+		margin-left: 1rem;
+	}
+}
+.material-icons-outlined {
+	color: blue;
+}
+h6{
+	color: #7D40ED!important;
+}
+.main-btn:hover {
+	border: 2px solid darkblue;
+	transform: translateY(-4px);
+	box-shadow: 0px 4px 4px 0.1px darkslategrey;
+}
