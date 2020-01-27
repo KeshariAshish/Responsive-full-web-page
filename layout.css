@@ -37,6 +37,7 @@ html {
 	flex-grow: 0 !important;
 	margin-left: auto;
 	color: white !important;
+	text-align: center;
 }
 a{
 	color: white !important;
