@@ -90,6 +90,12 @@ a{
 	border-radius: 20px;
 	background-color: #fdfdfd;
 }
+
+.container-box-item-2:hover{
+	color: #fdfdfd;
+	border:#000000 ;
+	border-radius: 20px;
+}
 .container-box-item:hover {
 	background: #9771fc;
 	color: white;	
